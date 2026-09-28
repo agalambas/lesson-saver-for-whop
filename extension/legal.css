@@ -1,0 +1,44 @@
+body {
+  font:
+    16px/1.65 -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    sans-serif;
+  color: #18263a;
+  background: #f4f7fb;
+  margin: 0;
+}
+main {
+  max-width: 780px;
+  margin: 50px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 18px;
+}
+h1 {
+  line-height: 1.15;
+  font-size: 34px;
+}
+h2 {
+  margin-top: 30px;
+  font-size: 21px;
+}
+a {
+  color: #235fab;
+}
+pre {
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+small {
+  color: #54657a;
+}
+li {
+  margin: 8px 0;
+}
+@media (max-width: 700px) {
+  main {
+    margin: 0;
+    padding: 24px;
+  }
+}

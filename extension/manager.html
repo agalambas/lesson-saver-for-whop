@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lesson Saver for Whop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand">▸ LESSON SAVER</div>
+        <h1>Your lessons. Ready to save.</h1>
+        <p>
+          Open a Whop lesson, scan its player, and collect the videos you want.
+        </p>
+      </header>
+      <section>
+        <div class="section-head">
+          <h2>Detected on your page</h2>
+          <button id="scan">Scan Whop page</button>
+        </div>
+        <p id="notice" role="status">
+          Scan to find the video in your open lesson.
+        </p>
+        <div id="detected"></div>
+        <button id="add" disabled>Add selected to download list</button>
+      </section>
+      <section>
+        <div class="section-head">
+          <h2>Download list <span id="count">0</span></h2>
+          <button id="clear" class="secondary">Clear completed</button>
+        </div>
+        <div id="queue"></div>
+        <div class="actions">
+          <button id="download" disabled>Download all</button
+          ><button id="cancel" class="secondary" disabled>Stop</button>
+        </div>
+        <p id="progress" role="status" aria-live="polite"></p>
+      </section>
+      <footer>
+        <p>
+          Independent tool, not affiliated with Whop. Save only videos you own
+          or have permission to download.
+        </p>
+        <p>
+          Your download list stays on this device. Temporary media links stay in
+          memory for this browser session.
+        </p>
+        <p>
+          Keep this panel open during downloads. Files save to Downloads/Whop
+          Videos. Open each lesson and scan it to add more. Signed links can
+          expire; rescan the lesson to refresh them. Separate audio and video
+          tracks are combined into MP4. Encrypted streams are not supported.
+        </p>
+        <p>
+          <a href="privacy.html" target="_blank" rel="noopener">Privacy</a> ·
+          <a href="licenses.html" target="_blank" rel="noopener"
+            >Open-source notices</a
+          >
+        </p>
+      </footer>
+    </main>
+    <script type="module" src="manager.js"></script>
+  </body>
+</html>

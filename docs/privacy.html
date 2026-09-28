@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy · Lesson Saver for Whop</title>
+    <link rel="stylesheet" href="legal.css" />
+  </head>
+  <body>
+    <main>
+      <small
+        >Lesson Saver for Whop · Version 1.2.0 · Updated 28 September
+        2026</small
+      >
+      <h1>Privacy policy</h1><p>Publisher: Alexandre Galambas. Support: <a href="https://github.com/agalambas/lesson-saver-for-whop/issues">GitHub Issues</a>.</p>
+      <p>
+        Lesson Saver for Whop is an independent browser extension that lets you
+        select and save videos you have permission to download from the Whop
+        lesson you are viewing. The extension does not operate an account
+        system, analytics service, advertising system, or publisher-operated
+        download server.
+      </p>
+      <h2>Information the extension handles</h2>
+      <ul>
+        <li>
+          The current tab's URL, to verify that it is a Whop page before
+          scanning.
+        </li>
+        <li>
+          Video titles, playback identifiers, media URLs, and download status,
+          to display and maintain your selected download list.
+        </li>
+        <li>
+          Signed playback URLs, which may contain access tokens already provided
+          by the video player, to request your selected videos.
+        </li>
+        <li>
+          Video and audio bytes, to assemble downloads and combine separate
+          audio and video tracks on your device.
+        </li>
+        <li>
+          The IDs and status of downloads started by the extension, to display
+          completion and support stopping downloads.
+        </li>
+      </ul>
+      <p>
+        The extension does not read account passwords, use the cookies API,
+        enumerate your browser history, or collect analytics. It does not scan
+        unrelated websites or inspect private messages or payment forms.
+        Selected videos may themselves contain personal information.
+      </p>
+      <h2>Where processing and storage happen</h2>
+      <p>
+        Download-list metadata is stored locally in your Chrome profile. Signed
+        playback URLs are held in Chrome's in-memory extension session storage;
+        they are cleared when Chrome restarts or the extension is reloaded,
+        disabled, or updated. The persistent list does not contain those full
+        signed links. Old versions' stored links are migrated out of the
+        persistent list when this version opens.
+      </p>
+      <p>
+        Media processing takes place on your device using a bundled processor.
+        There is no upload to a publisher server, no cloud account for the
+        extension, and no Chrome storage.sync use. Only open the extension in a
+        browser profile and on a device you trust.
+      </p>
+      <h2>Network requests and service providers</h2>
+      <p>
+        To download a selected video, the extension sends HTTPS requests
+        directly to the source Whop or Mux media service. Signed playback tokens
+        are sent as part of those requests where required. Like other network
+        requests, the source service receives your IP address, requested
+        resource, and normal request metadata. The extension does not control
+        the source provider's own privacy practices or the website's analytics.
+        Native Chrome downloads may apply the browser's normal authentication
+        and cookie behavior; the extension does not read those cookies.
+      </p>
+      <p>
+        No user data is sent to the extension publisher by the extension. The
+        publisher does not sell extension user data or use it for advertising,
+        profiling, creditworthiness, or lending decisions.
+      </p>
+      <h2>Retention and deletion</h2>
+      <p>
+        Remove a list item to delete its stored metadata and current session
+        link. Clear completed removes finished entries. Uninstalling the
+        extension clears its extension storage. Restarting Chrome clears session
+        links, but keeps the list so you can rescan unfinished lessons. Files
+        you have downloaded remain in your Downloads folder until you delete
+        them yourself. Chrome may retain its normal download-history records
+        separately.
+      </p>
+      <h2>Limited Use</h2>
+      <p>
+        The use of information received through this extension adheres to the
+        Chrome Web Store User Data Policy, including its Limited Use
+        requirements. Information is handled only to provide the video
+        selection, local list, and download functions described here.
+      </p>
+      <h2>Support and policy changes</h2>
+      <p>
+        Use the support contact shown on the extension's Chrome Web Store
+        listing to contact its publisher. If you choose to send a support
+        request, its contents are provided voluntarily through the support
+        channel you use; the extension itself sends no support messages or
+        diagnostic reports. Do not include passwords or signed playback links in
+        public support requests.
+      </p>
+      <p>
+        Changes to the extension's data practices will be reflected in this
+        policy. The date above identifies the latest revision.
+      </p>
+      <p>
+        <small
+          >Not affiliated with, endorsed by, or produced by Whop or Mux.</small
+        >
+      </p>
+    </main>
+  </body>
+</html>
